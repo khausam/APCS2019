@@ -1,3 +1,23 @@
+import java.io.File;
+import java.io.IOException;
+import java.net.URI;
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
+import org.apache.http.client.utils.URIBuilder;
+import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.util.EntityUtils;
+import org.apache.http.entity.ContentType;
+import org.apache.http.entity.FileEntity;
+
+/**
+ * Write a description of class Main here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
 public class Main
 {
 
