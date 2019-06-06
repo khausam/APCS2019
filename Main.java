@@ -4,6 +4,7 @@ import java.net.URI;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -28,7 +29,7 @@ public class Main
         System.out.println("Starting...");
         
         String urlStr = "https://api.coinlore.com/api/tickers/";
-        HttpPost request = new HttpPost(urlStr);
+        HttpGet request = new HttpGet(urlStr);
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         
         try {
