@@ -1,5 +1,9 @@
 # APCS2019
 
-- what is a dash
+### Heading 3
 
-* what is an asterisk
+
+**bold text**
+
+	*italicized text*
+  
